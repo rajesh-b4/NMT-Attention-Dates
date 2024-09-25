@@ -1,0 +1,14 @@
+# Remove all numpy,csv, and pkl files
+
+.ipynb_checkpoints/
+*.csv
+*.npy
+*.pkl
+*.ipynb
+# Avoid pycache files
+__pycache__/
+
+#Only Allow Data folder
+!Data/
+
+Models/
